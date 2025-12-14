@@ -11,7 +11,7 @@
     "parameters": [
         {
             "name": "Learning rate",
-            "value": "0.3",
+            "value": "0.007",
             "type": "float",
             "help": "Step size shrinkage used in update to prevents overfitting.",
             "param": "learning-rate"
@@ -25,14 +25,14 @@
         },
         {
             "name": "Num. boost round",
-            "value": "10",
+            "value": "1000",
             "type": "int",
             "help": "Number of boosting iterations.",
             "param": "num-boost-round"
         },
         {
             "name": "L2",
-            "value": "1.0",
+            "value": "10.0",
             "type": "float",
             "help": "L2 regularization term on weights. Increasing this value will make model more conservative.",
             "param": "l2",

@@ -17,10 +17,10 @@ parser.add_argument('--learning-rate', type=float, required=False, default=0.3,
                     help='Step size shrinkage used in update to prevents overfitting.')
 parser.add_argument('--max-depth', type=int, required=False, default=6,
                     help='Maximum depth')
-parser.add_argument('--num-boost-round', type=int, required=False, default=10,
+parser.add_argument('--num-boost-round', type=int, required=False, default=1000,
                     help='Number of boosting iterations.')
 
-parser.add_argument('--l2', type=float, required=False, default=1.0,
+parser.add_argument('--l2', type=float, required=False, default=10.0,
                     help='L2 regularization term on weights. Increasing this value will make model more conservative.')
 parser.add_argument('--l1', type=float, required=False, default=0.0,
                     help='L1 regularization term on weights. Increasing this value will make model more conservative.')
